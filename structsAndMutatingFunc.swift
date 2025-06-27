@@ -1,7 +1,7 @@
 struct Car {
     let model: String
     let numberOfSeats: Int
-    var currentGear = 0
+    private(set) var currentGear = 0
     
     mutating func switchGearUp() {
         if currentGear < 10 {
