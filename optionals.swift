@@ -149,3 +149,11 @@ func getUserData() {
     let count3: Int = username!.count
 }
 
+/*
+func randomIntegerFromArray(array: [Int]?) -> Int {
+    array?.randomElement() ?? Int.random(in: 1...100)
+}
+
+let array1 = [1,2,3,4,5,6,7,8,9]
+print(randomIntegerFromArray(array: array1))
+*/
